@@ -1,0 +1,104 @@
+body{
+    text-align: center;
+    background-color: rgb(231, 88, 136);
+    color: white;
+}
+
+p{
+    text-align: left;
+    font-weight: bold;
+    margin-left: 20%;
+}
+
+.vidas {
+    background-color: rgb(231, 88, 136);
+    color:red;
+    border: 0;
+    outline: none;
+    text-align: center;
+    font-size: 25px;
+    
+    
+  }
+
+  .pun {
+    background-color: rgb(231, 88, 136);
+    color:white;
+    border: 0;
+    outline: none;
+    text-align: center;
+    font-size: 25px;
+    
+    
+  }
+
+  label{
+      text-align: center;
+      font-size: 25px;
+  }
+    
+
+.sinborde {
+    color:black;
+    border: 0;
+    outline: none;
+    text-align: center;
+   
+    width: 26%;
+    
+    font-size: 50px;
+    
+    
+  }
+
+  .resp {
+    
+    color:black;
+    border: 0;
+    outline: none;
+    text-align: center;
+   
+    width: 26%;
+    
+    font-size: 50px;
+    
+    
+  }
+  .suma{
+    background-color: rgb(0, 119, 255);
+    color: white;
+    width: 30%;
+    height: 40px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    font-size: x-large;
+    
+    
+} 
+.sig{
+    background-color: rgb(89, 0, 255);
+    color:white;
+    width: 35%;
+    height: 40px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    font-size: x-large;
+   
+    
+    
+} 
+
+.bienmal {
+    background-color: rgb(231, 88, 136);
+    color:white;
+    border: 0;
+    outline: none;
+    text-align: center;
+    width: 35%;
+    font-size: 65px;
+    
+  }

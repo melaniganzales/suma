@@ -1,4 +1,4 @@
-var vida = 5;
+
 num1 = Math.random()*16
 num1 = Math.floor(num1)
 num2 = Math.random()*16
@@ -24,11 +24,9 @@ function Sumar(){
     var num2 = Number(document.getElementById("num2").value);
     var res = Number(document.getElementById("res").value);
     var pt = Number(document.getElementById("pt").value);
-   
-
-    
+    var vida = Number(document.getElementById("vida").value);
+     
     var sumar = num1 + num2;
-    
     
     if (sumar == res){
         pt = pt + 2
@@ -43,43 +41,42 @@ function Sumar(){
     document.getElementById("num1").value=num1;
     document.getElementById("num2").value=num2;
     document.getElementById("pt").value=pt;
-    
-    
-        
-    } else{
-        
-        document.getElementById("bienmal").value="x";
-        document.getElementById("res").value="";
-        bienmal.style.color = "red"; 
-        vida = vida - 1;
+    }
 
 
+    else{
+
+       if (vida <= 5 && vida >1){
+            vida = vida - 1;
+            document.getElementById("bienmal").value="x";
+            document.getElementById("vida").value=vida;
+            bienmal.style.color = "red"; 
+    
+        
+    
+        }
+    
+        else{
+            document.getElementById("res").value="";
+            document.getElementById("pt").value="0";
+            document.getElementById("vida").value="5";
+            document.getElementById("bienmal").value="";
+            
+    
+    
+    
         }
 
-    if (vida == 4){
-        document.getElementById("vida").value="♥ ♥ ♥ ♥ ";
     }
-    if (vida == 3){
-        document.getElementById("vida").value="♥ ♥ ♥  ";
-    }
-    if (vida == 2){
-        document.getElementById("vida").value="♥ ♥  ";
-    }
-    if (vida == 1){
-        document.getElementById("vida").value="♥  ";
-
-    }
-       
-    if (vida == 0){
-        document.getElementById("vida").value="♥ ♥ ♥ ♥ ♥";
-        document.getElementById("pt").value="0";
-        document.getElementById("bienmal").value="";
-   
+    
+    
         
+    
+
+  
+
     }
 
-
-    }
 
 
 

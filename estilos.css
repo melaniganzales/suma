@@ -12,7 +12,7 @@ p{
 
 .vidas {
     background-color: rgb(231, 88, 136);
-    color:red;
+    color:white;
     border: 0;
     outline: none;
     text-align: center;
@@ -35,6 +35,7 @@ p{
   label{
       text-align: center;
       font-size: 25px;
+      
   }
     
 
